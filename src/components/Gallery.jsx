@@ -7,13 +7,20 @@ const Gallery = () => {
     `${import.meta.env.BASE_URL}images/gallery/2.jpg`,
     `${import.meta.env.BASE_URL}images/gallery/3.jpg`,
     `${import.meta.env.BASE_URL}images/gallery/4.jpg`,
-  ];
-
-  const imagesRow2 = [
     `${import.meta.env.BASE_URL}images/gallery/5.jpg`,
     `${import.meta.env.BASE_URL}images/gallery/6.jpg`,
     `${import.meta.env.BASE_URL}images/gallery/7.jpg`,
     `${import.meta.env.BASE_URL}images/gallery/8.jpg`,
+  ];
+
+  const imagesRow2 = [
+    `${import.meta.env.BASE_URL}images/gallery/9.jpg`,
+    `${import.meta.env.BASE_URL}images/gallery/10.jpg`,
+    `${import.meta.env.BASE_URL}images/gallery/11.jpg`,
+    `${import.meta.env.BASE_URL}images/gallery/12.jpg`,
+    `${import.meta.env.BASE_URL}images/gallery/13.jpg`,
+    `${import.meta.env.BASE_URL}images/gallery/14.jpg`,
+    `${import.meta.env.BASE_URL}images/gallery/15.jpg`,
   ];
 
   return (
