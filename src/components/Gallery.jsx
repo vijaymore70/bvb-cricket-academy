@@ -35,7 +35,7 @@ const Gallery = () => {
         <div className="flex w-[200vw] sm:w-[150vw] md:w-[100vw] opacity-80 hover:opacity-100 transition-opacity duration-300">
           <motion.div 
             animate={{ x: ["0%", "-50%"] }}
-            transition={{ repeat: Infinity, ease: "linear", duration: 25 }}
+            transition={{ repeat: Infinity, ease: "linear", duration: 60 }}
             className="flex gap-6 shrink-0"
           >
             {[...imagesRow1, ...imagesRow1].map((src, i) => (
@@ -50,7 +50,7 @@ const Gallery = () => {
         <div className="flex w-[200vw] sm:w-[150vw] md:w-[100vw] opacity-80 hover:opacity-100 transition-opacity duration-300">
           <motion.div 
             animate={{ x: ["-50%", "0%"] }}
-            transition={{ repeat: Infinity, ease: "linear", duration: 30 }}
+            transition={{ repeat: Infinity, ease: "linear", duration: 70 }}
             className="flex gap-6 shrink-0"
           >
             {[...imagesRow2, ...imagesRow2].map((src, i) => (
