@@ -50,11 +50,11 @@ const Facilities = () => {
                whileInView={{ opacity: 1, y: 0 }}
                transition={{ duration: 0.6 }}
                viewport={{ once: true }}
-               className="relative bento-card aspect-[4/5]"
+               className="relative bento-card aspect-[4/5] group cursor-pointer"
              >
                <div className="absolute inset-0 bg-charcoal-800 rounded-3xl overflow-hidden">
-                 <img src={`${import.meta.env.BASE_URL}images/Turf.jpg`} alt="Turf Nets" className="w-full h-full object-cover opacity-70 hover:opacity-100 hover:scale-110 transition-all duration-700 grayscale hover:grayscale-0" />
-                 <div className="absolute inset-0 bg-gradient-to-t from-charcoal-900 via-charcoal-900/60 to-transparent" />
+                 <img src={`${import.meta.env.BASE_URL}images/Turf.jpg`} alt="Turf Nets" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700 grayscale group-hover:grayscale-0" />
+                 <div className="absolute inset-0 bg-gradient-to-t from-charcoal-900 via-charcoal-900/60 to-transparent pointer-events-none" />
                </div>
                <div className="absolute bottom-0 left-0 w-full p-6">
                  <h4 className="text-xl font-bold">Turf Nets</h4>
@@ -66,11 +66,11 @@ const Facilities = () => {
                whileInView={{ opacity: 1, y: 0 }}
                transition={{ duration: 0.6, delay: 0.2 }}
                viewport={{ once: true }}
-               className="relative bento-card aspect-[4/5] md:-mt-16"
+               className="relative bento-card aspect-[4/5] md:-mt-16 group cursor-pointer"
              >
                <div className="absolute inset-0 bg-charcoal-800 rounded-3xl overflow-hidden">
-                 <img src={`${import.meta.env.BASE_URL}images/Ground.jpg`} alt="Match Pitch" className="w-full h-full object-cover opacity-70 hover:opacity-100 hover:scale-110 transition-all duration-700 grayscale hover:grayscale-0" />
-                 <div className="absolute inset-0 bg-gradient-to-t from-charcoal-900 via-charcoal-900/60 to-transparent" />
+                 <img src={`${import.meta.env.BASE_URL}images/Ground.jpg`} alt="Match Pitch" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700 grayscale group-hover:grayscale-0" />
+                 <div className="absolute inset-0 bg-gradient-to-t from-charcoal-900 via-charcoal-900/60 to-transparent pointer-events-none" />
                </div>
                <div className="absolute bottom-0 left-0 w-full p-6">
                  <h4 className="text-xl font-bold">Match Grounds</h4>
