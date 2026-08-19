@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Mukta:wght@400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-charcoal-900 text-white font-sans antialiased selection:bg-victory-red selection:text-white;
+    overflow-x: hidden;
+  }
+  
+  /* Sleek dark scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0A0C10; /* Match background */
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #374151; /* Gray-700 */
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4B5563; /* Gray-600 */
+  }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #374151 #0A0C10;
+  }
+}
+
+.glass-panel {
+  @apply bg-charcoal-800/40 backdrop-blur-xl border border-white/5 shadow-2xl;
+}
+
+.glass-nav {
+  @apply bg-charcoal-900/60 backdrop-blur-xl border-b border-white/5;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-golden-light to-golden-grass;
+}
+
+.text-gradient-red {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-victory-red to-orange-500;
+}
+
+.glow-hover {
+  @apply transition-all duration-300 relative;
+}
+
+.glow-hover:hover {
+  @apply text-golden-light;
+  text-shadow: 0 0 20px rgba(253, 224, 71, 0.4);
+}
+
+.bento-card {
+  @apply rounded-3xl overflow-hidden glass-panel relative transition-all duration-500;
+}

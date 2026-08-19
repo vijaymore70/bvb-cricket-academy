@@ -1,0 +1,118 @@
+[deprecation] Running tailwindcss without -i, please provide an input file.
+
+Rebuilding...
+CssSyntaxError: tailwindcss: C:\Users\Vijay\Desktop\cricket\src\index.css:43:3: @apply should not be used with the 'group' utility
+    at Input.error (C:\Users\Vijay\Desktop\cricket\node_modules\postcss\lib\input.js:135:16)
+    at AtRule.error (C:\Users\Vijay\Desktop\cricket\node_modules\postcss\lib\node.js:146:32)
+    at processApply (C:\Users\Vijay\Desktop\cricket\node_modules\tailwindcss\lib\lib\expandApplyAtRules.js:377:29)
+    at C:\Users\Vijay\Desktop\cricket\node_modules\tailwindcss\lib\lib\expandApplyAtRules.js:551:9
+    at C:\Users\Vijay\Desktop\cricket\node_modules\tailwindcss\lib\processTailwindFeatures.js:55:50
+    at async Object.Once (C:\Users\Vijay\Desktop\cricket\node_modules\tailwindcss\lib\cli\build\plugin.js:248:17)
+    at async LazyResult.runAsync (C:\Users\Vijay\Desktop\cricket\node_modules\postcss\lib\lazy-result.js:293:11)
+    at async build (C:\Users\Vijay\Desktop\cricket\node_modules\tailwindcss\lib\cli\build\index.js:49:9) {
+  reason: "@apply should not be used with the 'group' utility",
+  file: 'C:\\Users\\Vijay\\Desktop\\cricket\\src\\index.css',
+  source: "@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Mukta:wght@400;600;700;800&display=swap');\n" +
+    '\n' +
+    '@tailwind base;\n' +
+    '@tailwind components;\n' +
+    '@tailwind utilities;\n' +
+    '\n' +
+    '@layer base {\n' +
+    '  html {\n' +
+    '    scroll-behavior: smooth;\n' +
+    '  }\n' +
+    '  body {\n' +
+    '    @apply bg-charcoal-900 text-white font-sans antialiased selection:bg-victory-red selection:text-white;\n' +
+    '    overflow-x: hidden;\n' +
+    '  }\n' +
+    '}\n' +
+    '\n' +
+    '.glass-panel {\n' +
+    '  @apply bg-charcoal-800/40 backdrop-blur-xl border border-white/5 shadow-2xl;\n' +
+    '}\n' +
+    '\n' +
+    '.glass-nav {\n' +
+    '  @apply bg-charcoal-900/60 backdrop-blur-xl border-b border-white/5;\n' +
+    '}\n' +
+    '\n' +
+    '.text-gradient {\n' +
+    '  @apply bg-clip-text text-transparent bg-gradient-to-r from-golden-light to-golden-grass;\n' +
+    '}\n' +
+    '\n' +
+    '.text-gradient-red {\n' +
+    '  @apply bg-clip-text text-transparent bg-gradient-to-r from-victory-red to-orange-500;\n' +
+    '}\n' +
+    '\n' +
+    '.glow-hover {\n' +
+    '  @apply transition-all duration-300 relative;\n' +
+    '}\n' +
+    '\n' +
+    '.glow-hover:hover {\n' +
+    '  @apply text-golden-light;\n' +
+    '  text-shadow: 0 0 20px rgba(253, 224, 71, 0.4);\n' +
+    '}\n' +
+    '\n' +
+    '.bento-card {\n' +
+    '  @apply rounded-3xl overflow-hidden glass-panel relative group transition-all duration-500 hover:border-white/10 hover:shadow-victory-red/5;\n' +
+    '}\n',
+  line: 43,
+  column: 3,
+  endLine: 43,
+  endColumn: 142,
+  input: {
+    column: 3,
+    endColumn: 142,
+    endLine: 43,
+    endOffset: 1128,
+    line: 43,
+    offset: 989,
+    source: "@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Mukta:wght@400;600;700;800&display=swap');\n" +
+      '\n' +
+      '@tailwind base;\n' +
+      '@tailwind components;\n' +
+      '@tailwind utilities;\n' +
+      '\n' +
+      '@layer base {\n' +
+      '  html {\n' +
+      '    scroll-behavior: smooth;\n' +
+      '  }\n' +
+      '  body {\n' +
+      '    @apply bg-charcoal-900 text-white font-sans antialiased selection:bg-victory-red selection:text-white;\n' +
+      '    overflow-x: hidden;\n' +
+      '  }\n' +
+      '}\n' +
+      '\n' +
+      '.glass-panel {\n' +
+      '  @apply bg-charcoal-800/40 backdrop-blur-xl border border-white/5 shadow-2xl;\n' +
+      '}\n' +
+      '\n' +
+      '.glass-nav {\n' +
+      '  @apply bg-charcoal-900/60 backdrop-blur-xl border-b border-white/5;\n' +
+      '}\n' +
+      '\n' +
+      '.text-gradient {\n' +
+      '  @apply bg-clip-text text-transparent bg-gradient-to-r from-golden-light to-golden-grass;\n' +
+      '}\n' +
+      '\n' +
+      '.text-gradient-red {\n' +
+      '  @apply bg-clip-text text-transparent bg-gradient-to-r from-victory-red to-orange-500;\n' +
+      '}\n' +
+      '\n' +
+      '.glow-hover {\n' +
+      '  @apply transition-all duration-300 relative;\n' +
+      '}\n' +
+      '\n' +
+      '.glow-hover:hover {\n' +
+      '  @apply text-golden-light;\n' +
+      '  text-shadow: 0 0 20px rgba(253, 224, 71, 0.4);\n' +
+      '}\n' +
+      '\n' +
+      '.bento-card {\n' +
+      '  @apply rounded-3xl overflow-hidden glass-panel relative group transition-all duration-500 hover:border-white/10 hover:shadow-victory-red/5;\n' +
+      '}\n',
+    url: 'file:///C:/Users/Vijay/Desktop/cricket/src/index.css',
+    file: 'C:\\Users\\Vijay\\Desktop\\cricket\\src\\index.css'
+  },
+  plugin: 'tailwindcss'
+}
