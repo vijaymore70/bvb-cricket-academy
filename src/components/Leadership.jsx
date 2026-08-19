@@ -36,7 +36,7 @@ const Leadership = () => {
           >
              <div className="absolute inset-0 bg-gradient-to-br from-golden-grass/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-golden-grass/30 shrink-0 shadow-[0_0_20px_rgba(234,179,8,0.15)] group-hover:border-golden-grass/50 transition-colors duration-500">
-               <img src="/images/44.png" alt="Sanjay Heramb Deval" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+               <img src={`${import.meta.env.BASE_URL}images/44.png`} alt="Sanjay Heramb Deval" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
              </div>
              <div className="flex flex-col justify-center h-full sm:mt-2">
                <p className="text-lg md:text-xl text-golden-grass mb-1 font-medium tracking-wide uppercase">Head Cricket Coach</p>
@@ -58,7 +58,7 @@ const Leadership = () => {
           >
              <div className="absolute inset-0 bg-gradient-to-r from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
              <div className="w-20 h-20 md:w-28 md:h-28 rounded-full overflow-hidden border-2 border-white/10 shrink-0 group-hover:border-victory-red/40 transition-colors duration-500">
-               <img src="/images/11.png" alt="Pralhad Gaikwad" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+               <img src={`${import.meta.env.BASE_URL}images/11.png`} alt="Pralhad Gaikwad" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
              </div>
              <div>
                <h3 className="text-xl md:text-2xl font-bold mb-1 group-hover:text-white transition-colors">Pralhad Gaikwad</h3>
@@ -76,7 +76,7 @@ const Leadership = () => {
           >
              <div className="absolute inset-0 bg-gradient-to-l from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
              <div className="w-20 h-20 md:w-28 md:h-28 rounded-full overflow-hidden border-2 border-white/10 shrink-0 group-hover:border-victory-red/40 transition-colors duration-500">
-               <img src="/images/Chairman.jpg" alt="Dr. Seema Agashe" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+               <img src={`${import.meta.env.BASE_URL}images/Chairman.jpg`} alt="Dr. Seema Agashe" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
              </div>
              <div>
                <h3 className="text-xl md:text-2xl font-bold mb-1 group-hover:text-white transition-colors">Dr. Seema Agashe</h3>

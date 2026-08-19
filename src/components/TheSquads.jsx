@@ -40,7 +40,7 @@ const TheSquads = () => {
         >
           {/* U-19 Girls */}
           <motion.div variants={itemVars} className="bento-card md:col-span-2 lg:col-span-2 md:row-span-2 lg:row-span-2 p-8 md:p-12 flex flex-col justify-end group relative">
-            <div className="absolute inset-0 bg-cover bg-center opacity-15 group-hover:opacity-30 transition-all duration-700 grayscale-[0.8] group-hover:grayscale-0" style={{ backgroundImage: "url('/images/U19G.jpg')" }} />
+             <div className="absolute inset-0 bg-cover bg-center opacity-15 group-hover:opacity-30 transition-all duration-700 grayscale-[0.8] group-hover:grayscale-0" style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/U19G.jpg')` }} />
             <div className="absolute inset-0 bg-gradient-to-t from-charcoal-900 via-charcoal-900/80 to-charcoal-900/40" />
             <div className="relative z-10">
               <div className="bg-victory-red/20 border border-victory-red/30 w-fit p-3 rounded-2xl mb-6 shadow-[0_0_15px_rgba(230,57,70,0.3)]">
@@ -55,7 +55,7 @@ const TheSquads = () => {
 
           {/* U-17 Boys */}
           <motion.div variants={itemVars} className="bento-card p-8 group flex flex-col justify-between relative">
-            <div className="absolute inset-0 bg-cover bg-center opacity-15 group-hover:opacity-30 transition-all duration-700 grayscale-[0.8] group-hover:grayscale-0" style={{ backgroundImage: "url('/images/U17B.jpg')" }} />
+             <div className="absolute inset-0 bg-cover bg-center opacity-15 group-hover:opacity-30 transition-all duration-700 grayscale-[0.8] group-hover:grayscale-0" style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/U17B.jpg')` }} />
             <div className="absolute inset-0 bg-gradient-to-t from-charcoal-900 via-charcoal-900/80 to-charcoal-900/40" />
             <div className="relative z-10 flex justify-between items-start">
               <h3 className="text-3xl font-bold">U-17<br/>Boys</h3>
@@ -69,7 +69,7 @@ const TheSquads = () => {
 
           {/* U-14 Boys */}
           <motion.div variants={itemVars} className="bento-card p-8 group flex flex-col justify-between lg:col-span-1 relative">
-             <div className="absolute inset-0 bg-cover bg-center opacity-15 group-hover:opacity-30 transition-all duration-700 grayscale-[0.8] group-hover:grayscale-0" style={{ backgroundImage: "url('/images/U14B.jpg')" }} />
+             <div className="absolute inset-0 bg-cover bg-center opacity-15 group-hover:opacity-30 transition-all duration-700 grayscale-[0.8] group-hover:grayscale-0" style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/U14B.jpg')` }} />
              <div className="absolute inset-0 bg-gradient-to-t from-charcoal-900 via-charcoal-900/80 to-charcoal-900/40" />
              <div className="relative z-10 flex justify-between items-start">
               <h3 className="text-3xl font-bold">U-14<br/>Boys</h3>
@@ -83,7 +83,7 @@ const TheSquads = () => {
 
           {/* U-14 Girls */}
           <motion.div variants={itemVars} className="bento-card p-8 lg:col-span-2 md:col-span-2 group flex flex-col justify-between relative">
-             <div className="absolute inset-0 bg-cover bg-center opacity-15 group-hover:opacity-30 transition-all duration-700 grayscale-[0.8] group-hover:grayscale-0" style={{ backgroundImage: "url('/images/U14G.jpg')" }} />
+             <div className="absolute inset-0 bg-cover bg-center opacity-15 group-hover:opacity-30 transition-all duration-700 grayscale-[0.8] group-hover:grayscale-0" style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/U14G.jpg')` }} />
              <div className="absolute inset-0 bg-gradient-to-t from-charcoal-900 via-charcoal-900/80 to-charcoal-900/40" />
              <div className="relative z-10 flex justify-between items-start">
               <h3 className="text-3xl font-bold text-white">U-14 Girls</h3>

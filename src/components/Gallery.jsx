@@ -3,17 +3,17 @@ import { motion } from 'framer-motion';
 
 const Gallery = () => {
   const imagesRow1 = [
-    "/images/gallery/1.jpg",
-    "/images/gallery/2.jpg",
-    "/images/gallery/3.jpg",
-    "/images/gallery/4.jpg",
+    `${import.meta.env.BASE_URL}images/gallery/1.jpg`,
+    `${import.meta.env.BASE_URL}images/gallery/2.jpg`,
+    `${import.meta.env.BASE_URL}images/gallery/3.jpg`,
+    `${import.meta.env.BASE_URL}images/gallery/4.jpg`,
   ];
 
   const imagesRow2 = [
-    "/images/gallery/5.jpg",
-    "/images/gallery/6.jpg",
-    "/images/gallery/7.jpg",
-    "/images/gallery/8.jpg",
+    `${import.meta.env.BASE_URL}images/gallery/5.jpg`,
+    `${import.meta.env.BASE_URL}images/gallery/6.jpg`,
+    `${import.meta.env.BASE_URL}images/gallery/7.jpg`,
+    `${import.meta.env.BASE_URL}images/gallery/8.jpg`,
   ];
 
   return (
